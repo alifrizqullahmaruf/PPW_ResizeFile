@@ -1,0 +1,209 @@
+html,
+body {
+    background-color: #fef9fd;
+    font-size: 15px;
+    color: #565656;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'open_sansregular';
+    font-weight: 300;
+}
+
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+h1,
+h2,
+h3 {
+    font-family: 'big_johnregular';
+    font-weight: 300;
+    margin: 0;
+}
+h4,
+h5 {
+    font-weight: 300;
+    margin: 0;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+h2 {
+    font-size: 65px;
+    margin-bottom: .9rem;
+    font-family: 'big_johnregular';
+}
+h3 {
+    font-weight: 300;
+    margin-bottom: .9rem;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+}
+h4 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.1rem;
+}
+h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+h6 {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}
+p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+p:last-child {
+    margin-bottom: 0px;
+}
+#p-home {
+    margin-top: 20px;
+}
+
+
+#navbar-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fef9fd;
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh; 
+}
+
+/*
+Section
+*/
+.sections {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+	
+}
+.sections.footer {
+    padding-bottom: 80px;
+}
+section .subtitle h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'roboto', sans-serif;
+}
+.parallax-section {
+    max-width: 100%;
+    color: #ffffff;
+}
+section .title-half h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+section .subtitle-half h5 {
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/*
+Separator
+*/
+.separator {
+    height: 15px;
+    width: 100%;
+    margin: auto;
+    background: url(../images/separetor3.png) no-repeat bottom center;
+    display: inline-block;
+}
+
+
+/* What i do */
+
+.whatido{
+	background:#fef9fd;
+	padding:80px 0px;
+}
+.whatido .head_title h2{}
+
+.head_title_rigth {
+	margin: 40px 0px;
+}
+.head_title_rigth p{
+	font-size:18px;
+	font-family: 'open_sanslight';
+	color:#000000;
+}
+
+.single_whatido{
+	margin-top: 50px;
+}
+.single_whatido_img{
+	margin-bottom:30px;
+}
+.single_whatido_img img{
+	width:200px;
+	height:310px;
+}
+.single_whatido h3{
+	font-size:18px;
+	font-family: 'big_johnregular';
+}
+.single_whatido p{
+	font-size:18px;
+}
+
+/* My Works Section */
+.myworks{
+	padding:80px 0px;
+	overflow:hidden;
+}
+.main_myworks_content{
+	margin-top:80px;
+}
+.single_work img{
+	width:50%;
+}
+
+.btn_bg {
+    background: url(../images/separetor3.png) no-repeat center center;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    margin-top: 60px;
+}
+.btn_bg a{
+    position: absolute;
+    left: 45%;
+    top: -50px;
+    background: #fad663;
+    border: 2px solid #000;
+    border-radius: 15px 15px 15px 15px;
+}
+
